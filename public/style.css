@@ -1,0 +1,64 @@
+@keyframes glow {
+    from {
+      text-shadow:
+        0 0 30px #fff,
+        0 0 40px #fff,
+        0 0 50px #808080,
+        0 0 60px #808080,
+        0 0 70px #808080,
+        0 0 80px #000,
+        0 0 90px #000;
+    }
+    to {
+        text-shadow:
+          0 0 20px #000,
+          0 0 50px #000,
+          0 0 70px #fff,
+          0 0 80px #fff,
+          0 0 100px #fff,
+          0 0 140px rgb(225, 255, 0),
+          0 0 250px rgb(255, 255, 255);
+      }
+    }   
+
+.buttons a{
+    text-decoration: none;
+    color: red;
+    border: solid rgb(153, 153, 153);
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgb(163, 181, 189);
+    animation: glow 1s ease-in-out infinite alternate;
+    }
+
+h1 {
+    margin-top: 80px;
+  color:rgb(236, 220, 220)
+}    
+
+.images {
+    width: 319px;
+    height: auto;
+    border: 5px inset rgb(139, 138, 70);
+    
+}
+
+body{
+    margin-top: 40px;
+    background-color: rgb(49, 47, 47);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}    
+
+p {
+    font-size: larger;
+    margin: 50px;
+    color:rgb(236, 220, 220);
+}
+
+footer {
+    align-self: flex-start;
+    margin: 30px;
+    color: rgb(236, 220, 220);
+}
